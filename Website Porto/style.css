@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding: 5rem;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.sticky-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    z-index: 100;
+    position: relative;
+    overflow-y: auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 50px 0px rgba(68, 68, 68, 0.5)
+}
+
+.sticky-nav ul li a {
+    color: rgb(199, 194, 194);
+    text-decoration: none;
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'League Spartan';
+}
+
+.sticky-nav ul li a:hover {
+    color: #ffffff;
+}
+
+.intro {
+    margin-top: 10rem;
+}
+
+.intro h1 {
+    font-size: 4rem;
+    color: white;
+    overflow: hidden;
+    margin: 0 auto;
+    letter-spacing: .15em;
+}
+
+.experience, .education-item {
+    margin: 2rem 0;
+}
+
+.skill-item {
+    margin: 2rem 0;
+}
+
+.social-media img {
+    width: 40px;
+    margin: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.section h2 p{
+    font-size: 30;
+}
+
+/* Section Divider (Line or 3D Effect) */
+.section-divider {
+    height: 2px;
+    background: linear-gradient(90deg, #ffdd00, #333);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+
+/* Typewriter Effect */
+.typewriter {
+    border-right: 0.15em solid #fff;
+    font-size: 5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
